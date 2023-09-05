@@ -26,12 +26,20 @@ body {
     align-items: center;
   }
   
-  .right-border {
-    border-right: 0.2em solid #0074a6;
+  .top-border {
+    border-top: 0.2em solid #0074a6;
   }
   
   .bottom-border {
     border-bottom: 0.2em solid #0074a6;
+  }
+
+  .right-border {
+    border-right: 0.2em solid #0074a6;
+  }
+  
+  .left-border {
+    border-left: 0.2em solid #0074a6;
   }
   
   .x-hover:hover::after {
