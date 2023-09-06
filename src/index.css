@@ -1,4 +1,4 @@
-body {
+ body {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -107,16 +107,45 @@ body {
     border: #5468ff 8px;
     border-style: dotted;
     padding: 10px;
-    margin-top: 50px;
+    margin-top: 20px;
     font-size: 1.5em;
   }
   
   .reset-button {
-    margin-top: 50px;
-    padding: 20px;
+    margin-top: 20px;
+    padding: 10px;
     background-color: #0074a6;
     color: white;
+    /* width: 50%; */
     width: 100%;
     font-size: 1.5em;
+    /* margin: 20px auto; */
+    display: block;
   }
   
+  .container{
+    background-color: rgb(59, 6, 7);
+    padding: 10px;
+  }
+
+  .playerX, .playerO, .winningContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .winningContainer{
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .playerX, .playerO{
+    border: 1px solid red;
+    border-radius: 4px;
+    height: 30px;
+    padding: 0px 5px;
+  }
+
+  .x-player, .o-player{
+    padding: 5px;
+  }
